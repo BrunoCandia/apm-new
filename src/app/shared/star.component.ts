@@ -1,4 +1,3 @@
-import { outputAst } from "@angular/compiler";
 import { Component, EventEmitter, Input, OnChanges, Output, SimpleChanges } from "@angular/core";
 
 @Component({
