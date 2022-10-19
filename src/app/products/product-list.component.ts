@@ -94,10 +94,14 @@ export class ProductListComponent implements OnInit {
       this._listFilter = 'cart';
     }
 
-    //Classic named function (method)
-    capitalizeName(product: IProduct): string {
-      return product.productName.toUpperCase();
+    onRatingClicked(message: string): void {
+      this.pageTitle = "Product List: " + message;
     }
+
+    //Classic named function (method)
+    // capitalizeName(product: IProduct): string {
+    //   return product.productName.toUpperCase();
+    // }
 
     //Arrow function
     //(product: IProduct) => product.productName.toUpperCase();
