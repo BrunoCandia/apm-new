@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
 
+## When setting up existing Angular code
+
+1 - Navigate down to the project folder. The project folder contains the "package.json" file.
+2 - Run: "npm install" (To install the packages defined in the package.json file).
+3 - Run: "npm start" (To start the installed Angular application).
+
+## Install the Angular Cli globally and use "ng" command from anywhere
+
+To use the "ng" command globally we need to run: "npm install -g @angular/cli"
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
